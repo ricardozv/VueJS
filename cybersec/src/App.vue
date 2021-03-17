@@ -1,24 +1,52 @@
 <template>
- <div id="app">
- 
-  <h1> Cyber Segurança </h1>
+  <div id="app">
+    <Navbar
+      name="Logo Name"
+      :navLinks="[
+        {
+          name: 'Inicio',
+          link: '/home',
+          dropdown: false,
+        },
+        { name: '1980', 
+        link: '/1980', 
+        dropdown: false },
 
- </div>
- <Menu/>
+        { name: '1990', 
+        link: '/1990', 
+        dropdown: false },
 
+        { name: '2000', 
+        link: '/2000', 
+        dropdown: false },
+
+        { name: 'Fim', 
+        link: '/Fim', 
+        dropdown: false },
+
+       
+      ]"
+    />
+  </div>
 </template>
 
 <script>
-import Menu from './components/Menu'
-
+import Navbar from '@/components/Navbar.vue'
 export default {
   name: 'App',
   components: {
-    Menu
-  }
-
+    Navbar,
+  },
 }
 </script>
 
 <style>
+* {
+  margin: 100;
+  padding: 200;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
 </style>
