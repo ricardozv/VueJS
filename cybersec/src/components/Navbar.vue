@@ -116,7 +116,7 @@ nav {
 }
 div#logo {
   letter-spacing: 5px;
-  color: #fefefe;
+  color: #4272EE;
   font-weight: 800;
   font-size: 2rem;
 }
@@ -131,7 +131,7 @@ ul.nav-links li {
 }
 ul.nav-links a {
   text-decoration: none;
-  color: #fefefe;
+  color: #4272EE;
   font-size: 1.2rem;
   font-weight: 500;
   display: block;
@@ -144,7 +144,7 @@ ul.nav-links a {
   width: 30px;
   height: 3px;
   margin: 8px;
-  background-color: #fefefe;
+  background-color: #4272EE;
   transition: all 0.3s ease-in;
 }
 ul.dropdown-menu {
@@ -174,7 +174,7 @@ ul.dropdown-menu {
     padding: 100px;
     align-items: center;
     justify-content: flex-start;
-    background-color: #fe8888;
+    background-color: #000000;
     opacity: 0.8;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
@@ -188,10 +188,7 @@ ul.dropdown-menu {
   div#burger {
     display: block;
   }
-  ul.dropdown-menu {
-    position: relative;
-    top: 0;
-  }
+
 }
 .nav-active {
   transform: translateX(0) !important;
@@ -216,4 +213,3 @@ ul.dropdown-menu {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 </style>
-©

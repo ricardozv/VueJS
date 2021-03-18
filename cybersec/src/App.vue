@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar
-      name="Logo Name"
+      name="Logo"
       :navLinks="[
         {
           name: 'Inicio',
@@ -48,5 +48,6 @@ export default {
 }
 body{
   overflow-x: hidden;
+  background-color: black;
 }
 </style>
