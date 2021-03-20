@@ -107,29 +107,31 @@ export default {
 
 <style>
 nav {
-  display: flex;
-  /*justify-content: space-around; */
-  align-items: center;
-  background-color: #000000;
-  min-height: 4vh;
+
   font-family: 'Montserrat', sans-serif;
+  border-color: #4272EE;
+  border-top-style:solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  background-color:#130E0E;
+  border-radius: 24px;
+  padding: auto;
+ 
 }
-div#logo {
-  letter-spacing: 5px;
-  color: #4272EE;
-  font-weight: 800;
-  font-size: 2rem;
-}
+
 ul.nav-links {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  width: 40%;
-  line-height: 75px;
+  width: 50%;
+  line-height: 20px;
 }
 ul.nav-links li {
   list-style: none;
 }
 ul.nav-links a {
+  
   text-decoration: none;
   color: #4272EE;
   font-size: 1.2rem;
@@ -137,10 +139,12 @@ ul.nav-links a {
   display: block;
 }
 #burger {
+  
   display: none;
   cursor: pointer;
 }
 #burger div {
+  
   width: 30px;
   height: 3px;
   margin: 8px;

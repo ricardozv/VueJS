@@ -41,13 +41,11 @@ export default {
 </script>
 
 <style>
-* {
-  margin: 100;
-  padding: 200;
-  box-sizing: border-box;
-}
+
 body{
   overflow-x: hidden;
-  background-color: black;
+  background-color: #000000;
+  
 }
+
 </style>
